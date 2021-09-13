@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Project:
+
+This is a frontend project in react to help you organize your tasks. 
+
 ## 📦 Usage:
 
 After clone the project in the project directory, you can run:
