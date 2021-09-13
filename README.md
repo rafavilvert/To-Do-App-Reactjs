@@ -11,16 +11,12 @@ This is a frontend project in React js to help you organize and follow up your t
 * After clone in the project directory, open the terminal and run:
 
 ```
-
 yarn install
-
 ```
 After:
 
 ```
-
 yarn start
-
 ```
 
 Runs the app in the development mode.\
