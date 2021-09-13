@@ -2,6 +2,8 @@ import React from 'react';
 import { useHistory } from 'react-router';
 
 import './Task.css'
+import imgInfoIcon from '../../images/information.png'
+import imgCloseIcon from '../../images/close.png'
 
 const Task = ({ task, hadleTaskClick, handleTaskDelete }) => {
     const history = useHistory();
@@ -11,18 +13,18 @@ const Task = ({ task, hadleTaskClick, handleTaskDelete }) => {
     }
 
     return (
-        <div className="task-container" style={task.completed ? { textDecoration: "line-through", background: "#f0ad4e" } : {}} >
+        <div className="task-container" style={task.completed ? { textDecoration: "line-through", background: "#ffcc00" } : {}} >
             <div className="task-title" onClick={() => hadleTaskClick(task.id)}>
                 {task.title}
             </div>
             <div className="button-container">
                 <button className="details-task-button"
                     onClick={handleTaskDetailsClick}>
-                    I
+                    <img src={imgInfoIcon} alt="Information icon"></img>
                 </button>
                 <button className="remove-task-button"
                     onClick={() => handleTaskDelete(task.id)}>
-                    X
+                    <img src={imgCloseIcon} alt="Information icon"></img>
                 </button>
             </div>
         </div>

@@ -1,11 +1,42 @@
 .task-container {
-    background-color: #444;
+    background-color: rgb(255, 255, 255);
     margin: 8px 0;
     padding: 15px 20px;
     display: flex;
     border-radius: 5px;
     justify-content: space-between;
-    color: #eee;
+    color: rgb(0, 0, 0);
     align-items: center;
     cursor: pointer;
+}
+
+.task-container:hover {
+    box-shadow: 3px 10px 10px -1px rgba(0, 0, 0, 0.37);
+    -webkit-box-shadow: 3px 10px 10px -1px rgba(0,0,0,0.37);
+    -moz-box-shadow: 3px 10px 10px -1px rgba(0,0,0,0.37);
+    
+}
+
+.button-container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.details-task-button, .remove-task-button {
+    margin: 0 2px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: #eee;
+    cursor: pointer;
+}
+
+.details-task-button:hover {
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+.remove-task-button:hover {
+    background-color: rgba(221, 87, 46, 0.637);
+    border-radius: 5px;
 }
