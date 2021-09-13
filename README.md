@@ -4,13 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## 📦 Usage:
 
-After clone the project you can run:
+After clone the project in the project directory, you can run:
 
 ### `yarn install`
 
-## Available Scripts
-
-In the project directory, you can run:
+and
 
 ### `yarn start`
 
