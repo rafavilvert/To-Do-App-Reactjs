@@ -8,7 +8,7 @@ This is a frontend project in React js to help you organize and follow up your t
 
 ## 📦 Usage:
 
-* After clone go in the project directory, open the terminal and run:
+* After clone go into the project directory, open the terminal and run:
 
 ```
 yarn install
