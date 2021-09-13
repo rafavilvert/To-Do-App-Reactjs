@@ -6,6 +6,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This is a frontend project in React js to help you organize and follow up your tasks. 
 
+## Require:
+
+* Node js
+* Yarn
+
 ## 📦 Usage:
 
 * After clone go into the project directory, open the terminal and run:
