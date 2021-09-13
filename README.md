@@ -8,13 +8,20 @@ This is a frontend project in React js to help you organize and follow up your t
 
 ## 📦 Usage:
 
-After clone in the project directory, you can run:
+* After clone in the project directory, open the terminal and run:
 
-### `yarn install`
+```
 
-and
+yarn install
 
-### `yarn start`
+```
+After:
+
+```
+
+yarn start
+
+```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
